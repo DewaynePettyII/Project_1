@@ -1,123 +1,121 @@
 #post {
-    color: black;
+  color: black;
 }
 
 body {
-	background: #edff88;
-	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+  background: #edff88;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
 
 .intro {
-	margin: 30px 0px;
-	font-weight: bold;
+  margin: 30px 0px;
+  font-weight: bold;
 }
 
 h1 {
-	color: #0d0331;
-	text-transform: uppercase;
-    font-weight: 800;
-    font-family: fantasy;
+  color: #0d0331;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: fantasy;
 }
 
 h2 {
-    font-weight: 100;
-    font-family: fantasy;
-    font-size: xx-large;
-    font-style: italic;
-    color: rgb(190, 10, 10);
+  font-weight: 100;
+  font-family: fantasy;
+  font-size: xx-large;
+  font-style: italic;
+  color: rgb(190, 10, 10);
 }
 
 p {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 #first {
-	margin-top: 10px;
-    color: #11960d;
-     
+  margin-top: 10px;
+  color: #11960d;
 }
 
 #second {
-	color: #11960d;
-
+  color: #11960d;
 }
 
 #third {
-	color: #11960d;
-	margin-bottom: 30px;
+  color: #11960d;
+  margin-bottom: 30px;
 }
-
 
 #enter {
-	border: none;
-	padding: 5px 15px;
-	border-radius: 5px;
-	color: #04A1BF;
-	background-color: #025F70;
-	transition: all 0.75s ease;
-	-webkit-transition: all 0.75s ease;
-	-moz-transition: all 0.75s ease;
-	-ms-transition: all 0.75s ease;
-	-o-transition: all 0.75 ease;
-	font-weight: normal;
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #04a1bf;
+  background-color: #025f70;
+  transition: all 0.75s ease;
+  -webkit-transition: all 0.75s ease;
+  -moz-transition: all 0.75s ease;
+  -ms-transition: all 0.75s ease;
+  -o-transition: all 0.75 ease;
+  font-weight: normal;
 }
 
+#enter:hover {
+  background-color: #02798f;
+  color: #ffcd5d;
+}
 
-#enter:hover{
-	background-color: #02798F;
-	color: #FFCD5D;
+.iconsize {
+    height: 60px;
 }
 
 ul {
-	text-align: center;
-	margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
 }
 
-
 li {
-	list-style: none;
-	padding: 15px 20px;
-	color: #ffffff;
-	text-transform: capitalize;
-	font-weight: 600;
-	border: 2px solid #063002;
-	border-radius: 5px;
-	margin-bottom: 10px;
-	background: #06a110;
-	transition: all 0.70s ease;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	-o-transition: all 0.5s ease;
+  list-style: none;
+  padding: 15px 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid #063002;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: #06a110;
+  transition: all 0.7s ease;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 0.5s ease;
 }
 
 li:hover {
-	background: #eb3232;
+  background: #eb3232;
 }
 
 li > button {
-	font-weight: normal;
-	background: none;
-	border: none;
-	float: right;
-	color: #025f70;
-	font-weight: 800;
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
 }
 
 input {
-	border-radius: 5px;
-	min-width: 65%;
-	padding: 5px;
-	border: none;
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
 }
 
-
 .done {
-	background: black !important;
-	color: #eb3232;
+  background: black !important;
+  color: #eb3232;
 }
 
 .delete {
-	display: none;
+  display: none;
 }
