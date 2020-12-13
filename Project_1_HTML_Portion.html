@@ -25,9 +25,9 @@
 
                 <div class="row">
                     <div class="col-12">
-                        <input id="userInput" type="text" placeholder="Enter Planet..." maxlength="27">
+                        <input id="userInput" type="text" onFocus="handleOnFocus(this)" 
+                        onBlur="handleOnBlur(this)" placeholder="New Planet..." maxlength="27">
                         <button id="enter" ><i class="fas fa-pen-square fa-2x"></i></button>
-                        
                     </div>
                 </div>
             </div>
@@ -41,5 +41,15 @@
 
 	</div>
             <script type="text/javascript" src="Project_1_JS_Portion.js"></script>
+            <script>
+                function handleOnFocus(x){
+                    x.style.color = "Green"
+                    x.style.backgroundColor = "Black"
+                }
+                function handleOnBlur(x){
+                    x.style.color = "Red"
+                    x.style.backgroundColor = ""
+                }
+            </script>
         </body>
 </html>
