@@ -26,7 +26,13 @@
                 <div class="row">
                     <div class="col-12">
                         <input id="userInput" type="text" onFocus="handleOnFocus(this)" 
-                        onBlur="handleOnBlur(this)" placeholder="New Planet..." maxlength="27">
+                        onBlur="handleOnBlur(this)" list="planets" 
+                        placeholder="New Planet..." maxlength="27">
+                        <datalist id="planets">
+                            <option value="Mercury">  
+                            <option value="Venus">
+                          </datalist>
+                        
                         <button id="enter" ><i class="fas fa-pen-square fa-2x"></i></button>
                     </div>
                 </div>
